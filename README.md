@@ -1,5 +1,5 @@
 #gulp-inject 
->Injext files into code.  
+>Inject files into code.  
 
 > Made for gulp 3
 
