@@ -1,0 +1,40 @@
+{
+  "name": "gulp-injector",
+  "version": "0.0.1",
+  "description": "Inject code in file",
+  "homepage": "http://github.com/jiren/gulp-injector",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiren/gulp-injector.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulp", "inject code"
+  ],
+  "author": {
+    "name": "Jiren Patel"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.3.4",
+    "mocha": "~1.17.0",
+    "should": "~2.1.1"
+  },
+  "dependencies": {
+    "event-stream": "~3.1.0",
+    "glob": "^4.0.0",
+    "gulp-util": "~2.2.10"
+  },
+  "bugs": {
+    "url": "https://github.com/jiren/gulp-injector/issues"
+  },
+  "maintainers": [
+    {
+      "name": "jiren",
+      "email": "jirenpatel@gmail.com"
+    }
+  ]
+}
