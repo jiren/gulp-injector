@@ -33,4 +33,5 @@ gulp.task("default", "scripts");
 ```
 
 ## Licence
-(MIT License)
+
+[MIT License](https://github.com/jiren/gulp-injector/blob/master/LICENSE.md)
