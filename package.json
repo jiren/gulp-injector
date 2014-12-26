@@ -1,7 +1,7 @@
 {
   "name": "gulp-injector",
   "version": "0.0.1",
-  "description": "Inject code in file",
+  "description": "Inject code into file",
   "homepage": "http://github.com/jiren/gulp-injector",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "test": "mocha"
   },
   "keywords": [
-    "gulp", "inject code"
+    "gulp", "inject", "comment", "insert"
   ],
   "author": {
     "name": "Jiren Patel"
