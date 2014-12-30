@@ -1,11 +1,11 @@
-#gulp-inject 
+#gulp-injector 
 >Inject files into code.  
 
 > Made for gulp 3
 
 ## Usage
-First, install `gulp-inject` as a dev dependency:
-`npm install --save-dev gulp-inject`
+First, install `gulp-injector` as a dev dependency:
+`npm install --save-dev gulp-injector`
 
 Inject files by adding comments `inject` and filename. In following example it will include `my_module.js`.
 
@@ -21,7 +21,7 @@ function somethingNew(){
 
 ```javascript
 var gulp		= require('gulp'),
-	include		= require('gulp-inject'),
+	include		= require('gulp-injector'),
 
 gulp.task("scripts", function() {
 	gulp.src('src/js/main.js')
