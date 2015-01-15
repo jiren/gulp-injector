@@ -14,3 +14,4 @@ node_modules
 gh_page.rb
 1
 /test
+/coverage

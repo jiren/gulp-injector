@@ -12,7 +12,10 @@
     "test": "mocha"
   },
   "keywords": [
-    "gulp", "inject", "comment", "insert"
+    "gulp",
+    "inject",
+    "comment",
+    "insert"
   ],
   "author": {
     "name": "Jiren Patel"
@@ -20,8 +23,10 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "~3.3.4",
+    "istanbul": "^0.3.5",
     "mocha": "~1.17.0",
-    "should": "~2.1.1"
+    "should": "~2.1.1",
+    "istanbul": "~0.3.5"
   },
   "dependencies": {
     "event-stream": "~3.1.0",
@@ -36,5 +41,9 @@
       "name": "jiren",
       "email": "jirenpatel@gmail.com"
     }
-  ]
+  ],
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "istanbul cover _mocha test --recursive -- -u exports -R spec && open coverage/lcov-report/index.html"
+  }
 }

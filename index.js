@@ -6,6 +6,7 @@ var fs = require('fs'),
 
 
 var INJECT_REGEX = /\/\*\s*inject(.*)\s*\*\//mg; /* inject filename */ 
+//var INJECT_REGEX = /(?:<!--|\/\*)\s*inject(.*)\s*(?:\*\/|-->)/mg; 
 var JS_FILE_REGX = /\.js$/;
 var fileCache = {},
     extensions = [];
