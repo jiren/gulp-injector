@@ -21,7 +21,7 @@ function somethingNew(){
 
 ```javascript
 var gulp    = require('gulp'),
-    include = require('gulp-injector'),
+    inject  = require('gulp-injector'),
 
 gulp.task("scripts", function() {
 	gulp.src('src/js/main.js')
