@@ -20,8 +20,8 @@ function somethingNew(){
 `gulpfile.js`:
 
 ```javascript
-var gulp		= require('gulp'),
-	include		= require('gulp-injector'),
+var gulp    = require('gulp'),
+    include = require('gulp-injector'),
 
 gulp.task("scripts", function() {
 	gulp.src('src/js/main.js')
